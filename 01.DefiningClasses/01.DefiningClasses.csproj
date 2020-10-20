@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_01.DefiningClasses</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="02.Constructors\Program.cs" />
+    <Compile Remove="02.Constructors\Account.cs" />
+    <Compile Remove="02.Constructors\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.AssemblyInfo.cs" />
+    <Compile Remove="02.Constructors\Program.cs" />
+    <Compile Remove="03.Methods\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="02.Constructors\obj\02.Constructors.csproj.nuget.g.props" />
+    <None Remove="02.Constructors\obj\project.assets.json" />
+    <None Remove="02.Constructors\obj\02.Constructors.csproj.nuget.g.targets" />
+    <None Remove="02.Constructors\obj\02.Constructors.csproj.nuget.dgspec.json" />
+    <None Remove="02.Constructors\obj\project.nuget.cache" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.csprojAssemblyReference.cache" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.AssemblyInfoInputs.cache" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.csproj.CoreCompileInputs.cache" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.dll" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.pdb" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.genruntimeconfig.cache" />
+    <None Remove="02.Constructors\obj\Debug\netcoreapp3.1\02.Constructors.csproj.FileListAbsolute.txt" />
+    <None Remove="03.Methods\obj\03.Methods.csproj.nuget.g.props" />
+    <None Remove="03.Methods\obj\03.Methods.csproj.nuget.g.targets" />
+    <None Remove="03.Methods\obj\project.assets.json" />
+    <None Remove="03.Methods\obj\project.nuget.cache" />
+    <None Remove="03.Methods\obj\03.Methods.csproj.nuget.dgspec.json" />
+    <None Remove="03.Methods\obj\Debug\netcoreapp3.1\03.Methods.assets.cache" />
+    <None Remove="03.Methods\obj\Debug\netcoreapp3.1\03.Methods.csprojAssemblyReference.cache" />
+  </ItemGroup>
+</Project>

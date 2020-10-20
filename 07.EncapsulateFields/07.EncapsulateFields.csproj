@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_07.EncapsulateFields</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="08.GettersSetters\AccountGood.cs" />
+    <Compile Remove="08.GettersSetters\Program.cs" />
+    <Compile Remove="08.GettersSetters\Program.cs" />
+    <Compile Remove="08.GettersSetters\AccountGood.cs" />
+    <Compile Remove="09.Validation\Program.cs" />
+    <Compile Remove="09.Validation\AccountGood.cs" />
+    <Compile Remove="09.Validation\Program.cs" />
+    <Compile Remove="09.Validation\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.AssemblyInfo.cs" />
+    <Compile Remove="08.GettersSetters\AccountGood.cs" />
+    <Compile Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.AssemblyInfo.cs" />
+    <Compile Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="09.Validation\AccountGood.cs" />
+    <Compile Remove="10.EncapsulateLogic\AccountGood.cs" />
+    <Compile Remove="10.EncapsulateLogic\Program.cs" />
+    <Compile Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.AssemblyInfo.cs" />
+    <Compile Remove="09.Validation\AccountGood.cs" />
+    <Compile Remove="10.EncapsulateLogic\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="08.GettersSetters\obj\08.GettersSetters.csproj.nuget.g.props" />
+    <None Remove="08.GettersSetters\obj\project.assets.json" />
+    <None Remove="08.GettersSetters\obj\08.GettersSetters.csproj.nuget.g.targets" />
+    <None Remove="08.GettersSetters\obj\project.nuget.cache" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.assets.cache" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.csprojAssemblyReference.cache" />
+    <None Remove="09.Validation\obj\09.Validation.csproj.nuget.g.props" />
+    <None Remove="09.Validation\obj\09.Validation.csproj.nuget.g.targets" />
+    <None Remove="09.Validation\obj\project.nuget.cache" />
+    <None Remove="09.Validation\obj\project.assets.json" />
+    <None Remove="09.Validation\obj\09.Validation.csproj.nuget.dgspec.json" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.csprojAssemblyReference.cache" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.assets.cache" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.csproj.CoreCompileInputs.cache" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.AssemblyInfoInputs.cache" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.csproj.FileListAbsolute.txt" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.dll" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.pdb" />
+    <None Remove="09.Validation\bin\Debug\netcoreapp3.1\09.Validation.deps.json" />
+    <None Remove="09.Validation\bin\Debug\netcoreapp3.1\09.Validation.runtimeconfig.json" />
+    <None Remove="09.Validation\obj\Debug\netcoreapp3.1\09.Validation.genruntimeconfig.cache" />
+    <None Remove="09.Validation\bin\Debug\netcoreapp3.1\09.Validation.runtimeconfig.dev.json" />
+    <None Remove="09.Validation\bin\Debug\netcoreapp3.1\09.Validation.dll" />
+    <None Remove="09.Validation\bin\Debug\netcoreapp3.1\09.Validation.pdb" />
+    <None Remove="08.GettersSetters\obj\08.GettersSetters.csproj.nuget.dgspec.json" />
+    <None Remove="08.GettersSetters\bin\Debug\netcoreapp3.1\08.GettersSetters.deps.json" />
+    <None Remove="08.GettersSetters\bin\Debug\netcoreapp3.1\08.GettersSetters.runtimeconfig.dev.json" />
+    <None Remove="08.GettersSetters\bin\Debug\netcoreapp3.1\08.GettersSetters.pdb" />
+    <None Remove="08.GettersSetters\bin\Debug\netcoreapp3.1\08.GettersSetters.dll" />
+    <None Remove="08.GettersSetters\bin\Debug\netcoreapp3.1\08.GettersSetters.runtimeconfig.json" />
+    <None Remove="08.GettersSetters\obj\Release\netcoreapp3.1\08.GettersSetters.assets.cache" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.genruntimeconfig.cache" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.csproj.FileListAbsolute.txt" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.csproj.CoreCompileInputs.cache" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.pdb" />
+    <None Remove="08.GettersSetters\obj\Debug\netcoreapp3.1\08.GettersSetters.dll" />
+    <None Remove="09.Validation\obj\Release\netcoreapp3.1\09.Validation.assets.cache" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.csprojAssemblyReference.cache" />
+    <None Remove="10.EncapsulateLogic\obj\10.EncapsulateLogic.csproj.nuget.g.targets" />
+    <None Remove="10.EncapsulateLogic\obj\10.EncapsulateLogic.csproj.nuget.g.props" />
+    <None Remove="10.EncapsulateLogic\obj\project.assets.json" />
+    <None Remove="10.EncapsulateLogic\obj\project.nuget.cache" />
+    <None Remove="10.EncapsulateLogic\obj\10.EncapsulateLogic.csproj.nuget.dgspec.json" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.assets.cache" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.AssemblyInfoInputs.cache" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.csproj.CoreCompileInputs.cache" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.dll" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.pdb" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.genruntimeconfig.cache" />
+    <None Remove="10.EncapsulateLogic\bin\Debug\netcoreapp3.1\10.EncapsulateLogic.runtimeconfig.json" />
+    <None Remove="10.EncapsulateLogic\bin\Debug\netcoreapp3.1\10.EncapsulateLogic.runtimeconfig.dev.json" />
+    <None Remove="10.EncapsulateLogic\bin\Debug\netcoreapp3.1\10.EncapsulateLogic.dll" />
+    <None Remove="10.EncapsulateLogic\bin\Debug\netcoreapp3.1\10.EncapsulateLogic.pdb" />
+    <None Remove="10.EncapsulateLogic\obj\Debug\netcoreapp3.1\10.EncapsulateLogic.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+</Project>

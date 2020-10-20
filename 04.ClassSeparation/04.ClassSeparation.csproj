@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_04.ClassSeparation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="knl\Program.cs" />
+    <Compile Remove="05.BaseConstructors\Program.cs" />
+    <Compile Remove="05.BaseConstructors\Account.cs" />
+    <Compile Remove="05.BaseConstructors\DebitCard.cs" />
+    <Compile Remove="05.BaseConstructors\Program.cs" />
+    <Compile Remove="06.Override\Account.cs" />
+    <Compile Remove="06.Override\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="knl\obj\knl.csproj.nuget.g.props" />
+    <None Remove="knl\obj\knl.csproj.nuget.dgspec.json" />
+    <None Remove="knl\obj\project.nuget.cache" />
+    <None Remove="knl\obj\knl.csproj.nuget.g.targets" />
+    <None Remove="knl\obj\project.assets.json" />
+    <None Remove="05.BaseConstructors\obj\05.BaseConstructors.csproj.nuget.g.props" />
+    <None Remove="05.BaseConstructors\obj\project.assets.json" />
+    <None Remove="05.BaseConstructors\obj\project.nuget.cache" />
+    <None Remove="05.BaseConstructors\obj\05.BaseConstructors.csproj.nuget.g.targets" />
+    <None Remove="05.BaseConstructors\obj\05.BaseConstructors.csproj.nuget.dgspec.json" />
+    <None Remove="05.BaseConstructors\obj\Debug\netcoreapp3.1\05.BaseConstructors.csprojAssemblyReference.cache" />
+    <None Remove="05.BaseConstructors\obj\Debug\netcoreapp3.1\05.BaseConstructors.assets.cache" />
+    <None Remove="06.Override\obj\06.Override.csproj.nuget.dgspec.json" />
+    <None Remove="06.Override\obj\06.Override.csproj.nuget.g.targets" />
+    <None Remove="06.Override\obj\project.nuget.cache" />
+    <None Remove="06.Override\obj\project.assets.json" />
+    <None Remove="06.Override\obj\06.Override.csproj.nuget.g.props" />
+    <None Remove="06.Override\obj\Debug\netcoreapp3.1\06.Override.csprojAssemblyReference.cache" />
+    <None Remove="06.Override\obj\Debug\netcoreapp3.1\06.Override.assets.cache" />
+  </ItemGroup>
+</Project>

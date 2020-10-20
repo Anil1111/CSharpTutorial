@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_11.SingleInheritance</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="12.MultipleInheritance\Program.cs" />
+    <Compile Remove="13.HierarchicalInheritance\Program.cs" />
+    <Compile Remove="12.MultipleInheritance\Program.cs" />
+    <Compile Remove="12.MultipleInheritance\SavingsAccount.cs" />
+    <Compile Remove="12.MultipleInheritance\Account.cs" />
+    <Compile Remove="12.MultipleInheritance\Account.cs" />
+    <Compile Remove="12.MultipleInheritance\SavingsAccount.cs" />
+    <Compile Remove="12.MultipleInheritance\FlexibleSavingsAccount.cs" />
+    <Compile Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.AssemblyInfo.cs" />
+    <Compile Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.AssemblyInfo.cs" />
+    <Compile Remove="12.MultipleInheritance\Program.cs" />
+    <Compile Remove="13.HierarchicalInheritance\Account.cs" />
+    <Compile Remove="12.MultipleInheritance\Account.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="13.HierarchicalInheritance\obj\13.HierarchicalInheritance.csproj.nuget.g.props" />
+    <None Remove="13.HierarchicalInheritance\obj\13.HierarchicalInheritance.csproj.nuget.g.targets" />
+    <None Remove="13.HierarchicalInheritance\obj\project.assets.json" />
+    <None Remove="13.HierarchicalInheritance\obj\project.nuget.cache" />
+    <None Remove="13.HierarchicalInheritance\obj\13.HierarchicalInheritance.csproj.nuget.dgspec.json" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.assets.cache" />
+    <None Remove="12.MultipleInheritance\obj\12.MultipleInheritance.csproj.nuget.g.props" />
+    <None Remove="12.MultipleInheritance\obj\12.MultipleInheritance.csproj.nuget.g.targets" />
+    <None Remove="12.MultipleInheritance\obj\project.assets.json" />
+    <None Remove="12.MultipleInheritance\obj\project.nuget.cache" />
+    <None Remove="12.MultipleInheritance\obj\12.MultipleInheritance.csproj.nuget.dgspec.json" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.assets.cache" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.AssemblyInfoInputs.cache" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.csproj.CoreCompileInputs.cache" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.dll" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.pdb" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.genruntimeconfig.cache" />
+    <None Remove="12.MultipleInheritance\bin\Debug\netcoreapp3.1\12.MultipleInheritance.runtimeconfig.json" />
+    <None Remove="12.MultipleInheritance\bin\Debug\netcoreapp3.1\12.MultipleInheritance.runtimeconfig.dev.json" />
+    <None Remove="12.MultipleInheritance\bin\Debug\netcoreapp3.1\12.MultipleInheritance.dll" />
+    <None Remove="12.MultipleInheritance\bin\Debug\netcoreapp3.1\12.MultipleInheritance.pdb" />
+    <None Remove="12.MultipleInheritance\obj\Debug\netcoreapp3.1\12.MultipleInheritance.csproj.FileListAbsolute.txt" />
+    <None Remove="13.HierarchicalInheritance\bin\Debug\netcoreapp3.1\13.HierarchicalInheritance.deps.json" />
+    <None Remove="13.HierarchicalInheritance\bin\Debug\netcoreapp3.1\13.HierarchicalInheritance.runtimeconfig.json" />
+    <None Remove="13.HierarchicalInheritance\bin\Debug\netcoreapp3.1\13.HierarchicalInheritance.runtimeconfig.dev.json" />
+    <None Remove="13.HierarchicalInheritance\bin\Debug\netcoreapp3.1\13.HierarchicalInheritance.dll" />
+    <None Remove="13.HierarchicalInheritance\bin\Debug\netcoreapp3.1\13.HierarchicalInheritance.pdb" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.AssemblyInfoInputs.cache" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.csproj.CoreCompileInputs.cache" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.dll" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.pdb" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.genruntimeconfig.cache" />
+    <None Remove="13.HierarchicalInheritance\obj\Debug\netcoreapp3.1\13.HierarchicalInheritance.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+</Project>
